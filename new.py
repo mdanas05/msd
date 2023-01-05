@@ -1,4 +1,4 @@
-a=6
-b=4
-print(a+b)
-print('hello')
+import calendar
+obj=calendar.calendar(firstweekday=0)
+for day in obj.iterweekdays():
+    print(day)
